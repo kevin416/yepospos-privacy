@@ -22,7 +22,7 @@
 <main>
   <section lang="en">
     <h1>YeposPOS Privacy Policy</h1>
-    <p class="updated">Last updated: 25 September 2026</p>
+    <p class="updated">Last updated: 14 October 2026</p>
     <p>YeposPOS is a business application for authorised staff of merchants that use YEPOS services. Staff accounts are provided by the merchant or its administrator; accounts cannot be created inside the app.</p>
     <h2>Information we process</h2>
     <ul>
@@ -32,7 +32,10 @@
       <li><strong>Device and printer settings:</strong> configured receipt-printer details and operational preferences needed to print receipts and pick slips.</li>
     </ul>
     <h2>Camera and Bluetooth</h2>
-    <p>The camera is used for barcode, collection-code and document scanning. Barcode and collection-code images are processed on the device; the decoded value is used to find the relevant product or order. A scanned document is uploaded only when the user chooses to save it to the merchant cloud drive. Bluetooth access is used to discover and connect to compatible receipt printers.</p>
+    <p>The camera is used for barcode, collection-code and document scanning. Barcode and collection-code images are processed on the device; the decoded value is used to find the relevant product or order. A scanned document is uploaded only when the user chooses to save it to the merchant cloud drive. A product photo is uploaded only when the user adds it to a product or uses AI photo recognition (below). Bluetooth access is used to discover and connect to compatible receipt printers.</p>
+    <h2>AI photo recognition (optional)</h2>
+    <p>When creating a product, a user may choose “Scan product by photo”. Before the first use the app explains this feature and asks for consent; nothing is sent unless the user agrees. With consent, the single product or box-label photo the user takes or selects is sent through the YEPOS API to <strong>OpenAI</strong>, a third-party AI provider, to read product details such as name, barcode, specification and units per box. Only that photo is sent; no account credentials, payment details or other personal data are included. The result is used only to pre-fill the product form, which the user reviews before saving. The provider does not use the photo to train its models. Consent can be withdrawn at any time in the app under Settings → General → AI photo recognition → Turn off; products can still be created by typing the details.</p>
+
     <h2>How information is used</h2>
     <p>We process this information to authenticate staff, enforce merchant permissions, provide point-of-sale and order workflows, synchronise merchant records, transfer files selected by users, print business documents, prevent misuse, diagnose failures and support the merchant.</p>
     <h2>Storage and service providers</h2>
@@ -45,7 +48,7 @@
 
   <section class="language" lang="zh-Hans">
     <h1>YeposPOS 隐私政策</h1>
-    <p class="updated">最后更新：2026 年 9 月 25 日</p>
+    <p class="updated">最后更新：2026 年 10 月 14 日</p>
     <p>YeposPOS 是供使用 YEPOS 服务的商户授权员工使用的业务 App。员工账号由商户或管理员提供，App 内不能注册账号。</p>
     <h2>我们处理的信息</h2>
     <ul>
@@ -55,7 +58,10 @@
       <li><strong>设备与打印设置：</strong>打印收据和拣货单所需的小票打印机配置及操作偏好。</li>
     </ul>
     <h2>相机与蓝牙</h2>
-    <p>相机用于扫描商品条码、取货码和文档。条码及取货码图像在设备上处理，识别出的编码仅用于查找对应商品或订单。扫描文档只有在用户选择保存到商户云盘时才会上传。蓝牙权限用于发现并连接兼容的小票打印机。</p>
+    <p>相机用于扫描商品条码、取货码和文档。条码及取货码图像在设备上处理，识别出的编码仅用于查找对应商品或订单。扫描文档只有在用户选择保存到商户云盘时才会上传。商品照片只有在用户把它加到商品上，或使用下文的 AI 拍照识别时才会上传。蓝牙权限用于发现并连接兼容的小票打印机。</p>
+    <h2>AI 拍照识别（可选）</h2>
+    <p>新建商品时，用户可以选择「拍照识别产品」。首次使用前，App 会说明这项功能并征得同意；用户不同意就不会发送任何内容。用户同意后，其拍摄或选择的那一张商品或外箱标签照片会经 YEPOS API 发送给第三方 AI 服务商 <strong>OpenAI</strong>，用于读取商品名称、条码、规格、每箱数量等信息。只发送这张照片，不包含登录凭据、付款信息或其他个人数据。识别结果只用于预填商品表单，由用户核对后再保存。服务商不会用这张照片训练模型。用户可随时在 App 的「设置 → 通用 → AI 拍照识别 → 关闭」中撤回同意；撤回后仍可手动填写建档。</p>
+
     <h2>信息用途</h2>
     <p>我们使用上述信息来验证员工身份、执行商户权限、提供收银及订单流程、同步商户记录、传输用户选择的文件、打印业务单据、防止滥用、诊断故障并向商户提供支持。</p>
     <h2>存储与服务提供方</h2>
